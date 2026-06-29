@@ -74,14 +74,14 @@ export default function Navbar() {
 
         {/* Logo */}
         <a href="#home" className="flex items-center" aria-label="Rapid Fix Physio — Home">
-          <div className="relative bg-white shadow-sm hover:shadow-md transition-shadow duration-300" style={{ 
-            borderRadius: "12px",
-            padding: "8px 12px",
-            border: "1px solid rgba(226, 232, 240, 0.8)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center"
-          }}>
+         <div style={{ 
+  borderRadius: "12px",
+  padding: "6px 10px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "rgba(255,255,255,0.92)",
+}}>
             <img
               src="/images/LOGO.png"
               alt="Rapid Fix Physio Logo"
